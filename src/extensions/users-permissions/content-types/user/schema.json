@@ -66,9 +66,9 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "event": {
+    "events": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::event.event",
       "mappedBy": "createdby"
     }
